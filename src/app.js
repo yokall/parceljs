@@ -1,3 +1,9 @@
+import Header from './components/Header';
+
 import './scss/app.scss';
 
-console.log("Hello world!");
+const app = () => {
+    document.getElementById('header').innerHTML = Header();
+}
+
+app();
